@@ -1,80 +1,126 @@
 # Online Quiz Application
 
 ## Project Overview
-The **Online Quiz Application** is a web-based platform developed in **Java** with a **ReactJS** frontend and **Spring Boot** backend. It allows users to take quizzes on various topics with a user-friendly interface, multiple-choice questions, scoring feedback, and quiz history tracking. The application supports both user and admin roles, where admins can create and manage quizzes, while users can attempt quizzes and review their past attempts.
 
-## Tech Stack
-- **Frontend**: ReactJS, Vite (for faster builds)
-- **Backend**: Java, Spring Boot
-- **Database**: MySQL
-- **Languages Used**: Java, JavaScript, HTML, CSS
+The **Online Quiz Application** allows users to take quizzes on various topics, providing a dynamic and interactive learning experience. Built using **Java**, **JavaScript**, **ReactJS**, **Spring Boot**, and a **MySQL** database, this application supports the creation of multiple-choice quizzes and tracks users' progress. It offers a smooth and intuitive interface for both quiz takers and administrators.
 
 ## Features
 
-1. **Quiz Management**:
-   - Admins can create, edit, and delete quizzes with multiple-choice questions.
-   - Each question includes a title, options, and correct answer(s).
+- **Quiz Management**:
+  - Administrators can create, edit, and delete quizzes.
+  - Each quiz consists of multiple-choice questions, with options and a correct answer(s).
+  
+- **Quiz Taking**:
+  - Users can select and take quizzes from various topics.
+  - One question is displayed at a time with multiple-choice options.
+  - Immediate feedback is provided after submitting answers (correct/incorrect).
 
-2. **Quiz Taking**:
-   - Users can choose from available quiz topics and take a quiz.
-   - Each question is displayed with selectable options, and users receive immediate feedback on each answer.
-   - The final score is calculated and displayed at the end of the quiz.
+- **Scoring & Progress Tracking**:
+  - The application calculates and displays the user's score at the end of each quiz.
+  - Users can track their quiz attempts and scores.
+  - Past quiz attempts and scores are available for review.
 
-3. **Scoring and Progress Tracking**:
-   - Tracks and displays users' scores after each quiz attempt.
-   - Users can view their quiz history, including past scores and attempts.
+- **User Interface**:
+  - A clean, user-friendly interface designed with **ReactJS** for a smooth experience.
+  - Consistent and intuitive layout for easy navigation.
 
-4. **User Interface**:
-   - Clean, user-friendly interface for easy navigation.
-   - Responsive design for both desktop and mobile views.
+- **Data Persistence**:
+  - A **MySQL** database is used to store quizzes, user accounts, and quiz results.
+  - The application implements CRUD operations for managing data via Spring Boot.
 
-5. **Data Persistence**:
-   - Stores quiz data, user accounts, and scores in a MySQL database.
-   - CRUD operations are implemented for managing database interactions.
+## Technologies Used
 
-6. **Documentation**:
-   - Comprehensive code documentation and setup instructions provided for ease of use.
+- **Frontend**: 
+  - **ReactJS**, **JavaScript**
+  
+- **Backend**: 
+  - **Spring Boot** (Java)
+  
+- **Database**:
+  - **MySQL**
 
-## Screenshots
-
-*Include screenshots for different parts of the application here. Replace the `![Screenshot]()` placeholders with links to your actual screenshot files.*
-
-- **Home Page**  
-  ![Home Page](link_to_screenshot_home)
-
-- **Quiz Page**  
-  ![Quiz Page](link_to_screenshot_quiz)
-
-- **Admin Panel**  
-  ![Admin Panel](link_to_screenshot_admin_panel)
+- **Build Tools**:
+  - **Vite**
 
 ## Installation
 
+Follow these steps to set up the application on your local machine.
+
 ### Prerequisites
-- **Java Development Kit (JDK)** version 11 or above
-- **Node.js** and **npm** installed
-- **MySQL** for database setup
-- **Vite** (if not already installed, it will be installed with the frontend dependencies)
 
-### Full Setup Instructions
+- **Java** (version 8 or higher)
+- **MySQL** installed and running
+- **Node.js** (for frontend)
+- **Maven** (for backend)
+- **Vite** (for building the React application)
 
-#### Step 1: Clone the repository
-```bash
-git clone https://github.com/your-username/online-quiz-application.git
+### Steps
 
-#### Step 2: Backend Setup (Spring Boot)
+1. **Clone the repository**:
+   - Open your terminal and clone the repository:
+     ```
+     git clone https://github.com/your-username/online-quiz-application.git
+     cd online-quiz-application
+     ```
 
-Navigate to the backend folder:
-```bash
-cd online-quiz-application/backend
+2. **Backend Setup (Spring Boot)**:
+   - Navigate to the backend directory.
+   - Open the project in your IDE (e.g., IntelliJ IDEA, Eclipse).
+   - Set up MySQL and create a database for the application.
+   - Update `application.properties` with your database credentials.
+   - Run the Spring Boot application:
+     - You can run it through your IDE or use Maven to build and run the application.
 
+3. **Frontend Setup (ReactJS)**:
+   - Navigate to the frontend directory.
+   - Install dependencies:
+     ```
+     npm install
+     ```
+   - Start the React development server:
+     ```
+     npm run dev
+     ```
+   - The frontend should now be running on `http://localhost:3000`.
 
-Set up the MySQL database:
+4. **Access the Application**:
+   - Open your browser and go to `http://localhost:8080` for the backend.
+   - For the frontend, visit `http://localhost:3000`.
 
-Create a new MySQL database. For example, you can create the database quiz_application:
-sql
-Copy code
-CREATE DATABASE quiz_application;
-Update the application.properties file located at src/main/resources/application.properties with your MySQL credentials:
-properties
-Copy code
+## Screenshots
+
+Below are some screenshots of the application in action:
+
+- ![Screenshot 1](./path/to/screenshot1.png)
+- ![Screenshot 2](./path/to/screenshot2.png)
+
+(Replace the path with the actual location of the images you have uploaded)
+
+## How to Use
+
+1. **Admin Panel**: 
+   - Log in with admin credentials to manage quizzes.
+   - Create, edit, or delete quizzes and questions.
+   
+2. **User Panel**:
+   - Browse available quizzes.
+   - Start taking quizzes, answer questions, and receive immediate feedback.
+   - View quiz results at the end of the quiz.
+
+## Contributing
+
+If you would like to contribute to this project, please follow the steps below:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-xyz`).
+3. Make your changes and commit them (`git commit -m 'Add feature XYZ'`).
+4. Push your branch to your forked repository (`git push origin feature-xyz`).
+5. Create a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to [ReactJS](https://reactjs.org/), [Spring Boot](https://spring.io/projects/spring-boot), and [MySQL](https://www.mysql.com/) for providing excellent tools to develop this project.
