@@ -1,3 +1,5 @@
+<img src="./Images/Banner.png" alt="Banner Image" width="100%" />
+
 # Online Quiz Application
 
 ## Project Overview
