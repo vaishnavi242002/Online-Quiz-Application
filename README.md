@@ -61,9 +61,18 @@ The **Online Quiz Application** is a web-based platform developed in **Java** wi
 #### Step 1: Clone the repository
 ```bash
 git clone https://github.com/your-username/online-quiz-application.git
-
-#### Step 2: Backend Setup (Spring Boot)
+Step 2: Backend Setup (Spring Boot)
 Navigate to the backend folder:
-```bash
-cd online-quiz-application/backend
 
+bash
+Copy code
+cd online-quiz-application/backend
+Set up the MySQL database:
+
+Create a new MySQL database. For example, you can create the database quiz_application:
+sql
+Copy code
+CREATE DATABASE quiz_application;
+Update the application.properties file located at src/main/resources/application.properties with your MySQL credentials:
+properties
+Copy code
