@@ -7,12 +7,11 @@
 The **Online Quiz Application** allows users to take quizzes on various topics, providing a dynamic and interactive learning experience. Built using **Java**, **JavaScript**, **ReactJS**, **Spring Boot**, and a **MySQL** database, this application supports the creation of multiple-choice quizzes and tracks users' progress. It offers a smooth and intuitive interface for both quiz takers and administrators.
 
 ## Features
-
 - **User Authentication**:
   - Secure login and registration for users.
   - Users must authenticate to take quizzes and track progress.
   - Admin users can manage quizzes and user data.
-  - 
+    
 - **Quiz Management**:
   - Administrators can create, edit, and delete quizzes.
   - Each quiz consists of multiple-choice questions, with options and a correct answer(s).
