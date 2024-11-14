@@ -110,15 +110,6 @@ Below are some screenshots of the application in action:
    - Start taking quizzes, answer questions, and receive immediate feedback.
    - View quiz results at the end of the quiz.
 
-## Contributing
-
-If you would like to contribute to this project, please follow the steps below:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Make your changes and commit them (`git commit -m 'Add feature XYZ'`).
-4. Push your branch to your forked repository (`git push origin feature-xyz`).
-5. Create a pull request to the main repository.
 
 ## License
 
