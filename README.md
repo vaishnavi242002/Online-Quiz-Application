@@ -1,4 +1,4 @@
-<img src="./Images/Banner.png" alt="Banner Image" width="100%" />
+<img src="./Screenshots/Banner.png" alt="Banner Image" width="100%" />
 
 # Online Quiz Application
 
