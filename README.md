@@ -91,7 +91,7 @@ Follow these steps to set up the application on your local machine.
 
 Below are some screenshots of the application in action:
 
-- ![Screenshot 1](./path/to/screenshot1.png)
+- ![Screenshot 1](Screenshots/O1.png)
 - ![Screenshot 2](./path/to/screenshot2.png)
 
 (Replace the path with the actual location of the images you have uploaded)
