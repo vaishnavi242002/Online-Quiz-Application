@@ -56,7 +56,14 @@ The **Online Quiz Application** is a web-based platform developed in **Java** wi
 - **MySQL** for database setup
 - **Vite** (if not already installed, it will be installed with the frontend dependencies)
 
-### Backend Setup (Spring Boot)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/online-quiz-application.git
+### Full Setup Instructions
+
+#### Step 1: Clone the repository
+```bash
+git clone https://github.com/your-username/online-quiz-application.git
+
+#### Step 2: Backend Setup (Spring Boot)
+Navigate to the backend folder:
+```bash
+cd online-quiz-application/backend
+
