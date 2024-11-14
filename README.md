@@ -8,6 +8,11 @@ The **Online Quiz Application** allows users to take quizzes on various topics, 
 
 ## Features
 
+- **User Authentication**:
+  - Secure login and registration for users.
+  - Users must authenticate to take quizzes and track progress.
+  - Admin users can manage quizzes and user data.
+  - 
 - **Quiz Management**:
   - Administrators can create, edit, and delete quizzes.
   - Each quiz consists of multiple-choice questions, with options and a correct answer(s).
